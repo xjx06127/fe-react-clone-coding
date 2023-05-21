@@ -19,3 +19,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 1. 우측 상단 햄버거 버튼 클릭 시 진행되는 동적 기능
 2. 기타 애니메이션 효과
 3. 하단 Footer
+
+## 캡쳐 화면
+![image](https://github.com/Likelion-Inha-11/fe-react-clone-coding/assets/111687549/90e16e70-4369-43e6-a957-9dc70eba88a8)
+
