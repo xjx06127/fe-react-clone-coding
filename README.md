@@ -21,5 +21,37 @@ https://getbootstrap.com/docs/4.3/examples/album/
 3. 하단 Footer
 
 ## 캡쳐 화면
-![image](https://github.com/Likelion-Inha-11/fe-react-clone-coding/assets/111687549/90e16e70-4369-43e6-a957-9dc70eba88a8)
+![image](https://github.com/Likelion-Inha-11/fe-react-clone-coding/assets/111687549/90e16e70-4369-43e6-a957-9dc70eba88a8) <br/>
 
+![image](https://github.com/Likelion-Inha-11/fe-react-clone-coding/assets/111687549/ea35377a-e5a6-4dd3-8781-7acd9857c8cb) <br/>
+
+![image](https://github.com/Likelion-Inha-11/fe-react-clone-coding/assets/111687549/94feb841-7a54-441f-b6fe-0daf0aa72c34) <br/>
+
+## 컴포넌트 계층 구조 정리
+
+# Top
+1. TopBar : 전체적인 상단바 틀 잡기
+2. Div : 사진과 Album 묶어줌
+
+# Explanation
+1. Main : TopBar 밑의 큰 글씨
+2. Sup : Main 아래 작은 글씨
+
+# Button
+1. BlueButton : 파란색 버튼 구성, hover, active 기능 부여
+2. GrayButton : 회색 버튼 구성, hover, active 기능 부여
+3. Container : 버튼들 중앙정렬 및 margin 조정
+
+# Album
+1. Background : 각 앨범의 전체적인 틀 작성
+2. Img : url을 props로 받아옴, 이미지 크기 및 border 조정
+3. Content : 이미지 아래 설명들의 margin 조정
+4. ViewButton, EditButton : 이미지 아래 들어갈 버튼들, hover 기능 부여
+5. Time : 시간 글씨 크기 및 색 부여
+6. Div : Buttons와 Time 묶어서 배치
+
+# AlbumWrapper
+모든 앨범들 올바르게 배치
+
+# A
+앨범 뒤의 배경색 지정
